@@ -1,0 +1,117 @@
+:root {
+  --primary-color: rgb(42, 158, 194);
+}
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  outline:0;
+
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+
+.logo-header{
+  background-color: #DA1E26;
+  border-radius: 2px;
+  padding: 6px;
+  
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 20px 0;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.page-logo {
+  display:flex;
+  width: 200px;
+  margin-top: 60px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin: 20px 0px;
+  
+}
+
+#container-post, #newFilms {
+  max-width: 640px;
+}
+
+#container-post .post {
+  display:inline-block;
+
+  margin: 20px 10px;
+  color: #fff;
+  
+}
+#container-post .post p{
+  color: #fff;
+  padding-top: 10px;
+
+}
+
+#container-post .post a{
+  text-decoration: none;
+}
+
+#newFilms img {
+  margin: 10px;
+}
+
+.form-wrapper {
+  display:inline-block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  
+}
+
+.form-wrapper input {
+  margin-left: 15px;
+  border-radius: 4px;
+  padding: 15px 15px;
+  border: none;
+}
+
+.form-wrapper input:focus {
+  border: 1px solid #DA1E26;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #DA1E26;
+  font-weight:bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form-wrapper button:hover {
+  opacity:.8;
+}
+
+footer {
+  margin: 100px 0;
+  color:#DA1E26;
+}
+
+
+
